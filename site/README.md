@@ -34,5 +34,3 @@ supprimer l'image
 
 
 Par Maxime F4IQN
-maxime1.favier@protonmail.ch
-Redistribution limité aux membres du radioclub F6KGL
