@@ -1,0 +1,18 @@
+version: "3.9"
+
+services:
+  site-f6kgl:
+    build: site/
+    ports:
+    - "80:80"
+    restart: always
+    tty: true
+    container_name: "site-f6kgl"
+
+  weathermap:
+    build: weathermap/
+    ports:
+    - "8080:80"
+    restart: always
+    tty: true
+    container_name: "weathermap-idf"
