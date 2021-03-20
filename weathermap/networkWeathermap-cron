@@ -1,0 +1,4 @@
+* * * * * /var/www/html/update.sh  >> /var/log/cron.log 2>&1
+@reboot sleep 10 && service apache2 start  >> /var/log/cron.log 2>&1
+#* * * * * whoami  >> /var/log/cron.log 2>&1
+
